@@ -40,7 +40,7 @@ a:hover {
 
 
 #container {
-  max-width: 500px;
+  max-width: 800px;
   margin: 0 auto;
   text-align: center;
 }
@@ -89,8 +89,7 @@ a:hover {
 }
 
 #bizarre {
-  position: relative;
-  left: -35px;
+
 }
 
 
@@ -102,4 +101,85 @@ a:hover {
 .fourth-block a {
   line-height: 1.7;
   font-size: 22px;
+}
+
+
+.btn-red {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(242, 95, 92, 0.7);
+  color: #fff ;
+  border-radius: 3px;
+  transition: background-color 0.3s ease-in-out;
+
+}
+
+.btn-red:hover {
+  background-color: rgba(242, 95, 92, 1);
+  color: #fff;
+}
+
+#red {
+  color: rgba(242, 95, 92, 1);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.second-block>ul {
+  list-style: none;
+}
+
+.second-block>ul>li {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.second-block>ul li:last-of-type {
+  margin-right: 0;
+}
+
+.second-block>ul>li>a>i {
+  display: block;
+  font-size: 25px;
+}
+
+
+.third-block>ul>li {
+  text-align: left;
+}
+
+
+.fourth-block>ul {
+  list-style: none;
+
+}
+
+.fourth-block ul li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.fourth-block ul li a {
+  font-size: 35px;
+
+}
+
+
+.nav-fixed {
+  position: fixed;
+  width: 60px;
+  background-color: #384047;
+  top: 0; left: 0; bottom: 0;
+  text-align: center;
+  box-shadow: 0px 0px 5px 1px black;
+}
+
+.nav-fixed>a {
+  display: block;
+  height: 50px;
+}
+
+.nav-fixed>a:first-of-type {
+  margin-top: 30px;
 }
