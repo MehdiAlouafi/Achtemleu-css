@@ -183,3 +183,7 @@ a:hover {
 .nav-fixed>a:first-of-type {
   margin-top: 30px;
 }
+
+#img-bckgr-color {
+  border: 3px solid rgba(244, 116, 59, 0.6);
+}
