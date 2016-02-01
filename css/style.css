@@ -6,6 +6,12 @@ html,body {
   margin: 0;
   padding: 0;
   font-family: 'Open sans', sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+ul{
+  margin: 0;
 }
 
 h1,h2 {
@@ -25,9 +31,75 @@ img {
 
 a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(153, 153, 153, 0.5);
   transition: color 0.3s ease;
 }
 a:hover {
-  color: #fff;
+  color: #999;
+}
+
+
+#container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px #666;
+  background-color: #fff;
+}
+
+.first-block {
+  margin-bottom: 40px;
+  background-color: #fff;
+  padding: 20px;
+
+}
+
+.second-block {
+  background-color: #fff;
+  padding: 20px 0 ;
+}
+
+.second-block ul {
+  margin: 0;
+
+}
+
+.third-block {
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+.second-block ul li a {
+  line-height: 1.7;
+}
+
+.third-block ul {
+  padding: 0;
+  list-style: none;
+}
+.third-block ul li {
+  margin: 10px 0 0 0;
+}
+.third-block img {
+  margin-right: 10px;
+}
+
+#bizarre {
+  position: relative;
+  left: -35px;
+}
+
+
+.fourth-block {
+  padding-bottom: 20px;
+
+}
+
+.fourth-block a {
+  line-height: 1.7;
+  font-size: 22px;
 }
